@@ -1,0 +1,17 @@
+#+TITLE:spring-boot-console-application-demo
+#+AUTHOR: Pushkar Raj
+
+Spring-boot command line runner demo.
+
+* Build & Execute
+
+#+begin_src bash
+  ./mvnw clean package
+
+  java -jar target/spring-boot-console-application-demo-0.0.1-SNAPSHOT.jar 'Hello World' One Two Three
+#+end_src
+
+* Resources
+
+- https://www.baeldung.com/spring-boot-console-app
+- https://jstobigdata.com/spring/use-of-order-annotation-in-spring/
